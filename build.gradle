@@ -1,9 +1,17 @@
 plugins {
     id 'java'
+    id "com.github.johnrengelman.shadow" version "8.1.1"
 }
-
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.spr.Main'
+        )
+    }
+    archivesBaseName = 'Java-App-Analysis'
+}
 group = 'org.example'
-version = '1.0-SNAPSHOT'
+version = '1.0'
 
 repositories {
     mavenCentral()
