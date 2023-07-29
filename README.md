@@ -51,4 +51,4 @@ __High CPU Threads__: Threads taking most amount of CPU and Hot Methods associat
 
 ## Requirements
 
-Java 11 or higher. application analysis
+Java 11 or higher.
