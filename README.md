@@ -21,6 +21,7 @@ To run the application use the command in the `root directory`:
 ```bash
   java -jar ./build/libs/Java-JFR-Analyzer-1.0-all.jar <PID|Path to ".jfr" File>
 ```
+Provide PID of the process you want to analyze in which case it would Start a new flight recording upon user inputs such as duration and path to dump the JFR recording. Or provide path to the JFR file you want to analyze.
 
 ## Why Use the Java JFR Analysis Tool?
 ``Simplified Analysis``: With this tool, you can conveniently analyze JFR files without relying on external applications, making the process more straightforward and accessible.
