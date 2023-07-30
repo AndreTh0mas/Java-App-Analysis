@@ -48,6 +48,10 @@ __Allocation Statistics__: Allocation behaviour of the application such as Top a
 
 __High CPU Threads__: Threads taking most amount of CPU and Hot Methods associated with them.
 
+![TLAB Allocation](https://github.com/AndreTh0mas/Java-JFR-Analyzer/blob/5b3c4ff4c3f6576c2e4a89f6b82171581edf15a4/AllocationThroughTLAB.png)
+
+Depending on the Jdk version, sometimes instead of ``ObjectAllocation`` event, ``In and Outside TlAB`` events are fired to give the allocation statistics of the application. Hence i have added capabilities for both the scenarios. This TAB shows top allocating methods using TLAB events.
+
 
 
 ## Requirements
