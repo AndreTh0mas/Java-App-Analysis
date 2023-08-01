@@ -12,7 +12,7 @@ import java.util.Optional;
 public class Main {
     private static void printHelp(){
         System.out.println("---------------------------USAGE--------------------------------");
-        System.out.println("java ApplicationStatistics.java [options] <|pid|file>\n");
+        System.out.println("java Java-JFR-Analyzer.java [options] <|pid|file>\n");
         System.out.println("--------------------------EXAMPLES------------------------------");
         System.out.println("java HealthReport.java 4711");
         System.out.println("java HealthReport.java PATH/recording.jfr");
