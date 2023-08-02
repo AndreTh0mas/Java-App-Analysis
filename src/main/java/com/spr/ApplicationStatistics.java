@@ -44,8 +44,8 @@ public class ApplicationStatistics {
             "            ============================ APPLICATION STATS ===============================\n" +
             "            | Phys. memory: $PHYSIC_MEM                         Alloc Rate: $ALLOC_RATE  |\n" +
             "            | OC Count    : $OC_COUNT Initial Heap: $INIT_HEAP  Total Alloc: $TOT_ALLOC  |\n" +
-            "            | OC Pause Avg: $OC_AVG   Used Heap   : $USED_HEAP  Thread Count: $THREADS   |\n" +
-            "            | OC Pause Max: $OC_MAX   Commit. Heap: $COM_HEAP   Class Count : $CLASSES   |\n" +
+            "            | OC Time  Avg: $OC_AVG   Used Heap   : $USED_HEAP  Thread Count: $THREADS   |\n" +
+            "            | OC Time  Max: $OC_MAX   Commit. Heap: $COM_HEAP   Class Count : $CLASSES   |\n" +
             "            | YC Count    : $YC_COUNT CPU Machine : $MACH_CPU   Max Comp. Time: $MAX_COM |\n" +
             "            | YC Pause Max: $YC_MAX   CPU JVM     :$JVM_CPU                              |\n" +
             "            |------------------------ Top Allocation Methods ----------------------------|\n" +
